@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Online_Library_Management
 =======
 # Getting Started with Create React App
