@@ -1,0 +1,81 @@
+.auth-container {
+  min-height: 100vh;
+  background: url("../../images/library_login.jpg") center/cover no-repeat;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 400px;
+  border: 1px solid var(--black-color);
+  margin: auto;
+  margin-right: 65px;
+  margin-top: -60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+}
+
+.login-form {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  margin: 30px;
+  justify-content: center;
+}
+
+.welcome {
+  font-size: 30px;
+  margin-top: -200px;
+  margin-left: 50px;
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.library-title {
+  font-size: 50px;
+  margin-top: -80px;
+  margin-left: -120px;
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.box {
+  padding: 12px;
+  width: 250px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--white-color);
+}
+
+#submit {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--white-color);
+  width: 50%;
+}
+#submit:hover {
+  cursor: pointer;
+  background-color: var(--black-color);
+}
+
+.auth-title-reg {
+  margin-top: 8px;
+  margin-bottom: -33px;
+  font-size: 25px;
+  font-weight:lighter;
+  color: var(--white-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.solid-user {
+  size: 50px;
+}
